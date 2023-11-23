@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 1em;
+    background-color: #BD2E20;
+}
+.custom-btn{
+    background-color: #fff;
+    color: #BD2E20;
+    border-radius: 20px;
+}
+.custom-btn:hover {
+    border-color: #8a2219; 
+    color: #8a2219; 
+}
+.logocentral img {
+    width: 700px;
+    height: auto;
+    max-width: 100%;
+}
+
+.navbar-brand {
+    display: flex; 
+    width: 100%;
+    text-align: center;
+    border: 2px solid;
+}
+
+.navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+}
+
+nav>a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.col {
+    border: 1px solid #ADD8E6;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: relative; 
+}
+
+.escolhas {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#conteudoParaOcultar {
+    display: none;
+}
+
+#conteudoParaOcultar2 {
+    display: none;
+}
+
+footer {
+    background-color: #BD2E20;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#content {
+    background-color: rgba(255, 255, 255, 0.9); 
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      text-align: center;
+      max-width: 800px; 
+      width: 100%;
+      margin: auto;
+      color: #333; 
+  }
